@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Background Circle -->
+  <circle cx="200" cy="200" r="180" fill="#2A0944" />
+  <circle cx="200" cy="200" r="170" fill="#3B185F" />
+  
+  <!-- Dragon Scale Pattern -->
+  <g id="scales">
+    <!-- Top Scales -->
+    <path d="M200 60 L170 100 L200 130 L230 100 Z" fill="#A12568" stroke="#FEC260" stroke-width="2" />
+    <path d="M150 90 L120 130 L150 160 L180 130 Z" fill="#A12568" stroke="#FEC260" stroke-width="2" />
+    <path d="M250 90 L220 130 L250 160 L280 130 Z" fill="#A12568" stroke="#FEC260" stroke-width="2" />
+    
+    <!-- Middle Scales -->
+    <path d="M200 140 L170 180 L200 210 L230 180 Z" fill="#D8572A" stroke="#FEC260" stroke-width="2" />
+    <path d="M150 170 L120 210 L150 240 L180 210 Z" fill="#D8572A" stroke="#FEC260" stroke-width="2" />
+    <path d="M250 170 L220 210 L250 240 L280 210 Z" fill="#D8572A" stroke="#FEC260" stroke-width="2" />
+    <path d="M100 140 L70 180 L100 210 L130 180 Z" fill="#D8572A" stroke="#FEC260" stroke-width="2" />
+    <path d="M300 140 L270 180 L300 210 L330 180 Z" fill="#D8572A" stroke="#FEC260" stroke-width="2" />
+    
+    <!-- Bottom Scales -->
+    <path d="M200 220 L170 260 L200 290 L230 260 Z" fill="#C41E3A" stroke="#FEC260" stroke-width="2" />
+    <path d="M150 250 L120 290 L150 320 L180 290 Z" fill="#C41E3A" stroke="#FEC260" stroke-width="2" />
+    <path d="M250 250 L220 290 L250 320 L280 290 Z" fill="#C41E3A" stroke="#FEC260" stroke-width="2" />
+  </g>
+  
+  <!-- Dragon Eye -->
+  <circle cx="200" cy="180" r="40" fill="#FEC260" />
+  <circle cx="200" cy="180" r="30" fill="#FF7800" />
+  <ellipse cx="200" cy="180" rx="20" ry="35" fill="#2A0944" />
+  <ellipse cx="200" cy="175" rx="10" ry="20" fill="#000000" />
+  <circle cx="190" cy="170" r="5" fill="#FFFFFF" />
+  
+  <!-- Token Name -->
+  <path id="textCircle" d="M 50 200 A 150 150 0 1 1 350 200 A 150 150 0 1 1 50 200" fill="none" />
+  <text font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#FEC260">
+    <textPath href="#textCircle" startOffset="25%">DRAGONSCALE • DSCL •</textPath>
+  </text>
+</svg>
